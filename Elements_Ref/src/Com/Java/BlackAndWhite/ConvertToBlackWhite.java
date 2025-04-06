@@ -5,7 +5,8 @@ public class ConvertToBlackWhite {
         if(blackAndWhite!=null){
         System.out.println("Runnnig Converttoblackwhite constructor");
         blackAndWhite.detectShades();
-        adjustContrast();}
+        adjustContrast();
+        }
         else{
             System.err.println("Blackandwhite is null");
         }
