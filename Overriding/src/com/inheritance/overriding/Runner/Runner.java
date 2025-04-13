@@ -12,6 +12,9 @@ public class Runner {
         ProTv proTv=new ProTv();
         proTv.usetv();
         proTv.maintaintv();
+        SonyTV sonyTV=new SonyTV();
+        sonyTV.show(tv);
+        sonyTV.show(proTv);
         System.out.println("===============================================================");
         //laptop
         Laptop laptop=new Laptop();
@@ -21,7 +24,11 @@ public class Runner {
         SmartLaptop smartLaptop=new SmartLaptop();
         smartLaptop.maintainlaptop();
         smartLaptop.uselaptop();
+        AsusLaptop asusLaptop=new AsusLaptop();
+        asusLaptop.asusshow(laptop);
+        asusLaptop.asusshow(laptop1);
         System.out.println("===============================================================");
+
         //smartphone
         SmartPhone smartPhone=new SmartPhone();
         smartPhone.usesmartphone();
@@ -30,6 +37,9 @@ public class Runner {
         MaxSmartphone maxSmartphone=new MaxSmartphone();
         maxSmartphone.maintainsmartphone();
         maxSmartphone.usesmartphone();
+        OnePlusPhone onePlusPhone=new OnePlusPhone();
+        onePlusPhone.phoneshow(smartPhone);
+        onePlusPhone.phoneshow(smartPhone1);
         System.out.println("===============================================================");
         //for camera
         Camera camera=new Camera();
@@ -39,6 +49,9 @@ public class Runner {
         MaxCamera maxCamera=new MaxCamera();
         maxCamera.usecamera();
         maxCamera.maitaincamera();
+        PruthviCamera pruthviCamera=new PruthviCamera();
+        pruthviCamera.camshow(camera);
+        pruthviCamera.camshow(camera1);
         System.out.println("===============================================================");
         //Refrigerator
         Refrigerator refrigerator=new Refrigerator();
@@ -48,7 +61,11 @@ public class Runner {
         UltraRefrigerator ultraRefrigerator=new UltraRefrigerator();
         ultraRefrigerator.useref();
         ultraRefrigerator.maintainRef();
+        ProRefrigerator proRefrigerator=new ProRefrigerator();
+        proRefrigerator.proshow(refrigerator);
+        proRefrigerator.proshow(refrigerator1);
         System.out.println("===============================================================");
+        //WashingMachine
         WashingMachine washingMachine=new WashingMachine();
         washingMachine.usewashmachine();
         WashingMachine washingMachine1=new EliteWashingMachine();
@@ -56,7 +73,11 @@ public class Runner {
         EliteWashingMachine eliteWashingMachine=new EliteWashingMachine();
         eliteWashingMachine.usewashmachine();
         eliteWashingMachine.maintainwashingmachine();
+        ProWashingMachine proWashingMachine=new ProWashingMachine();
+        proWashingMachine.showwash(washingMachine);
+        proWashingMachine.showwash(washingMachine1);
         System.out.println("===============================================================");
+        //AirConditioner
         AirConditioner airConditioner=new AirConditioner();
         airConditioner.useaircondtioner();
         AirConditioner airConditioner1=new MaxAirConditioner();
@@ -64,7 +85,11 @@ public class Runner {
         MaxAirConditioner maxAirConditioner=new MaxAirConditioner();
         maxAirConditioner.useaircondtioner();
         maxAirConditioner.maintianairconditioner();
+        ProAirConditioner proAirConditioner=new ProAirConditioner();
+        proAirConditioner.airshow(airConditioner);
+        proAirConditioner.airshow(airConditioner1);
         System.out.println("===============================================================");
+        //Microwave
         Microwave microwave=new Microwave();
         microwave.usemicrowave();
         Microwave microwave1=new UltraMicrowave();
@@ -72,7 +97,11 @@ public class Runner {
         UltraMicrowave ultraMicrowave=new UltraMicrowave();
         ultraMicrowave.usemicrowave();
         ultraMicrowave.maintainmicrowave();
+        ProMicrowave proMicrowave=new ProMicrowave();
+        proMicrowave.microshow(microwave);
+        proMicrowave.microshow(microwave1);
         System.out.println("===============================================================");
+        //Printer
         Printer printer=new Printer();
         printer.useprinter();
         Printer printer1=new MaxPrinter();
@@ -80,7 +109,11 @@ public class Runner {
         MaxPrinter maxPrinter=new MaxPrinter();
         maxPrinter.useprinter();
         maxPrinter.mainprinter();
+        ProPrinter printer2=new ProPrinter();
+        printer2.prishow(printer);
+        printer2.prishow(printer1);
         System.out.println("===============================================================");
+        //Speaker
         Speaker speaker=new Speaker();
         speaker.useseaker();
         Speaker speaker1=new ProSpeaker();
@@ -88,6 +121,9 @@ public class Runner {
         ProSpeaker proSpeaker=new ProSpeaker();
         proSpeaker.useseaker();
         proSpeaker.mainseaker();
+        UltraSpeaker ultraSpeaker=new UltraSpeaker();
+        ultraSpeaker.speak(speaker);
+        ultraSpeaker.speak(speaker1);
         System.out.println("===============================================================");
         SmartWatch smartWatch=new SmartWatch();
         smartWatch.usesmartwatch();
@@ -95,6 +131,9 @@ public class Runner {
         EliteSmartWatch eliteSmartWatch=new EliteSmartWatch();
         eliteSmartWatch.usesmartwatch();
         eliteSmartWatch.mainsmartwatch();
+        ProSmartWatch proSmartWatch=new ProSmartWatch();
+        proSmartWatch.watchshow(smartWatch);
+        proSmartWatch.watchshow(smartWatch1);
         System.out.println("===============================================================");
         Router router=new Router();
         router.userouter();
@@ -103,6 +142,9 @@ public class Runner {
         MaxRouter maxRouter=new MaxRouter();
         maxRouter.userouter();
         maxRouter.mainrouter();
+        ProRouter proRouter=new ProRouter();
+        proRouter.routershow(router);
+        proRouter.routershow(router1);
         System.out.println("===============================================================");
         Tablet tablet=new Tablet();
         tablet.usetablet();
@@ -111,6 +153,9 @@ public class Runner {
         SmartTablet smartTablet=new SmartTablet();
         smartTablet.usetablet();
         smartTablet.maintablet();
+        ProTablet proTablet=new ProTablet();
+        proTablet.tabshow(tablet);
+        proTablet.tabshow(tablet1);
         System.out.println("===============================================================");
         Drone drone=new Drone();
         drone.usedrone();
@@ -118,6 +163,9 @@ public class Runner {
         UltraDrone ultraDrone=new UltraDrone();
         ultraDrone.usedrone();
         ultraDrone.maindrone();
+        ProDrone proDrone=new ProDrone();
+        proDrone.droneshow(drone);
+        proDrone.droneshow(drone1);
         System.out.println("===============================================================");
         Projector projector=new Projector();
         projector.useprojector();
@@ -126,6 +174,9 @@ public class Runner {
         ProProjector projector2=new ProProjector();
         projector2.useprojector();
         projector2.mainprojector();
+        UltraProProjector ultraProProjector=new UltraProProjector();
+        ultraProProjector.showprojector(projector);
+        ultraProProjector.showprojector(projector1);
         System.out.println("===============================================================");
         VacuumCleaner vacuumCleaner=new VacuumCleaner();
         vacuumCleaner.usevaccum();
@@ -134,6 +185,9 @@ public class Runner {
         SmartVacuumCleaner smartVacuumCleaner=new SmartVacuumCleaner();
         smartVacuumCleaner.usevaccum();
         smartVacuumCleaner.mainvaccumn();
+        ProVacuumCleaner proVacuumCleaner=new ProVacuumCleaner();
+        proVacuumCleaner.vacuumshow(vacuumCleaner);
+        proVacuumCleaner.vacuumshow(vacuumCleaner1);
         System.out.println("===============================================================");
         SmartLight smartLight=new SmartLight();
         smartLight.usesmartlight();
@@ -142,6 +196,9 @@ public class Runner {
         EliteSmartWatch eliteSmartWatch1=new EliteSmartWatch();
         eliteSmartWatch1.usesmartwatch();
         eliteSmartWatch1.mainsmartwatch();
+        ProSmartLight proSmartLight=new ProSmartLight();
+        proSmartLight.lightshow(smartLight);
+        proSmartLight.lightshow(smartLight1);
         System.out.println("===============================================================");
         CoffeeMaker coffeeMaker=new CoffeeMaker();
         coffeeMaker.usecoffe();
@@ -150,6 +207,9 @@ public class Runner {
         UltraCoffeeMaker ultraCoffeeMaker=new UltraCoffeeMaker();
         ultraCoffeeMaker.usecoffe();
         ultraCoffeeMaker.maincoffee();
+        ProCoffeeMaker proCoffeeMaker=new ProCoffeeMaker();
+        proCoffeeMaker.showcoffee(coffeeMaker);
+        proCoffeeMaker.showcoffee(coffeeMaker1);
         System.out.println("===============================================================");
         Oven oven=new Oven();
         oven.useoven();
@@ -158,6 +218,9 @@ public class Runner {
         MaxOven maxOven=new MaxOven();
         maxOven.useoven();
         maxOven.mainoven();
+        ProOven proOven=new ProOven();
+        proOven.showoven(oven);
+        proOven.showoven(oven1);
         System.out.println("===============================================================");
         Toaster toaster=new Toaster();
         toaster.usetoaster();
@@ -166,6 +229,9 @@ public class Runner {
         ProToaster proToaster=new ProToaster();
         proToaster.usetoaster();
         proToaster.maintoster();
+        UltraToaster ultraToaster=new UltraToaster();
+        ultraToaster.showtoster(toaster);
+        ultraToaster.showtoster(toaster1);
         System.out.println("===============================================================");
         Blender blender=new Blender();
         blender.useblender();
@@ -174,6 +240,9 @@ public class Runner {
         UltraBlender ultraBlender=new UltraBlender();
         ultraBlender.useblender();
         ultraBlender.mainbleder();
+        ProBlender proBlender=new ProBlender();
+        proBlender.showblender(blender);
+        proBlender.showblender(blender1);
         System.out.println("===============================================================");
         ElectricKettle electricKettle=new ElectricKettle();
         electricKettle.usekettle();
@@ -182,6 +251,9 @@ public class Runner {
         SmartElectricKettle smartElectricKettle=new SmartElectricKettle();
         smartElectricKettle.usekettle();
         smartElectricKettle.mainkettle();
+        ProElectricKettle proElectricKettle=new ProElectricKettle();
+        proElectricKettle.showkettle(electricKettle);
+        proElectricKettle.showkettle(electricKettle1);
         System.out.println("===============================================================");
         HairDryer hairDryer=new HairDryer();
         hairDryer.usehairdryer();
@@ -190,6 +262,9 @@ public class Runner {
         MaxHairDryer maxHairDryer=new MaxHairDryer();
         maxHairDryer.mainhairdryer();
         maxHairDryer.usehairdryer();
+        ProHairDryer proHairDryer=new ProHairDryer();
+        proHairDryer.showdriver(hairDryer);
+        proHairDryer.showdriver(hairDryer1);
         System.out.println("===============================================================");
         Heater heater=new Heater();
         heater.useheater();
@@ -198,6 +273,9 @@ public class Runner {
         EliteHeater eliteHeater=new EliteHeater();
         eliteHeater.useheater();
         eliteHeater.mainheater();
+        ProHeater proHeater=new ProHeater();
+        proHeater.showheat(heater);
+        proHeater.showheat(heater1);
         System.out.println("===============================================================");
         GameConsole gameConsole=new GameConsole();
         gameConsole.useconsole();
@@ -206,6 +284,9 @@ public class Runner {
         SmartGameConsole smartGameConsole=new SmartGameConsole();
         smartGameConsole.mainconsole();
         smartGameConsole.useconsole();
+        ProGameConsole proGameConsole=new ProGameConsole();
+        proGameConsole.showgame(gameConsole);
+        proGameConsole.showgame(gameConsole1);
         System.out.println("===============================================================");
         Monitor monitor=new Monitor();
         monitor.usemonitor();
@@ -214,6 +295,9 @@ public class Runner {
         UltraMonitor ultraMonitor=new UltraMonitor();
         ultraMonitor.usemonitor();
         ultraMonitor.mainmonitor();
+        ProMonitor proMonitor=new ProMonitor();
+        proMonitor.showmonitor(monitor);
+        proMonitor.showmonitor(monitor1);
         System.out.println("===============================================================");
         FitnessTracker fitnessTracker=new FitnessTracker();
         fitnessTracker.usetracker();
@@ -222,6 +306,9 @@ public class Runner {
         MaxFitnessTracker maxFitnessTracker=new MaxFitnessTracker();
         maxFitnessTracker.usetracker();
         maxFitnessTracker.maintracker();
+        ProFitnessTracker proFitnessTracker=new ProFitnessTracker();
+        proFitnessTracker.showfit(fitnessTracker);
+        proFitnessTracker.showfit(fitnessTracker1);
         System.out.println("===============================================================");
         Fan fan=new Fan();
         fan.usefan();
@@ -230,6 +317,9 @@ public class Runner {
         SmartFan smartFan=new SmartFan();
         smartFan.usefan();
         smartFan.mainfan();
+        ProFan proFan=new ProFan();
+        proFan.showfan(fan);
+        proFan.showfan(fan1);
         System.out.println("===============================================================");
         Iron iron=new Iron();
         iron.useiron();
@@ -238,6 +328,9 @@ public class Runner {
         ProIron proIron=new ProIron();
         proIron.useiron();
         proIron.mainiron();
+        SmartIron smartIron=new SmartIron();
+        smartIron.showriron(iron);
+        smartIron.showriron(iron1);
         System.out.println("===============================================================");
         SmartDoorbell smartDoorbell=new SmartDoorbell();
         smartDoorbell.usrdoorbell();
@@ -246,6 +339,9 @@ public class Runner {
         EliteSmartDoorbell eliteSmartDoorbell=new EliteSmartDoorbell();
         eliteSmartDoorbell.usrdoorbell();
         eliteSmartDoorbell.maindoorbell();
+        ProSmartDoorbell proSmartDoorbell=new ProSmartDoorbell();
+        proSmartDoorbell.showdorr(smartDoorbell);
+        proSmartDoorbell.showdorr(smartDoorbell1);
         System.out.println("===============================================================");
         SecurityCamera securityCamera=new SecurityCamera();
         securityCamera.usesecuritycamere();
@@ -254,6 +350,9 @@ public class Runner {
         UltraSecurityCamera ultraSecurityCamera=new UltraSecurityCamera();
         ultraSecurityCamera.usesecuritycamere();
         ultraSecurityCamera.mainsecuritycamera();
+        ProSecurityCamera proSecurityCamera=new ProSecurityCamera();
+        proSecurityCamera.showcamera(securityCamera);
+        proSecurityCamera.showcamera(securityCamera1);
         System.out.println("===============================================================");
         Ebike ebike=new Ebike();
         ebike.useebike();
@@ -262,6 +361,9 @@ public class Runner {
         MaxEbike maxEbike=new MaxEbike();
         maxEbike.useebike();
         maxEbike.mainebike();
+        ProEbike proEbike=new ProEbike();
+        proEbike.showbike(ebike);
+        proEbike.showbike(ebike1);
         System.out.println("===============================================================");
         LawnMower lawnMower=new LawnMower();
         lawnMower.uselawnmover();
@@ -270,6 +372,9 @@ public class Runner {
         SmartLawnMower smartLawnMower=new SmartLawnMower();
         smartLawnMower.uselawnmover();
         smartLawnMower.mainlawnover();
+        ProLawnMower proLawnMower=new ProLawnMower();
+        proLawnMower.showlawn(lawnMower);
+        proLawnMower.showlawn(lawnMower1);
         System.out.println("===============================================================");
         RobotPet robotPet=new RobotPet();
         robotPet.userobotpet();
@@ -278,6 +383,9 @@ public class Runner {
         ProRobotPet proRobotPet=new ProRobotPet();
         proRobotPet.userobotpet();
         proRobotPet.mainrobotpet();
+        SmartRobotPet smartRobotPet=new SmartRobotPet();
+        smartRobotPet.showrobot(robotPet);
+        smartRobotPet.showrobot(robotPet1);
         System.out.println("===============================================================");
         ThreedPrinter threedPrinter=new ThreedPrinter();
         threedPrinter.usethreedprinter();
@@ -286,6 +394,9 @@ public class Runner {
         EliteThreedPrinter eliteThreedPrinter=new EliteThreedPrinter();
         eliteThreedPrinter.usethreedprinter();
         eliteThreedPrinter.mainthreedprinter();
+        ProThreedPrinter proThreedPrinter=new ProThreedPrinter();
+        proThreedPrinter.showprint(threedPrinter);
+        proThreedPrinter.showprint(threedPrinter1);
         System.out.println("===============================================================");
         SmartMirror smartMirror=new SmartMirror();
         smartMirror.usemirror();
@@ -294,6 +405,9 @@ public class Runner {
         UltraSmartMirror ultraSmartMirror=new UltraSmartMirror();
         ultraSmartMirror.usemirror();
         ultraSmartMirror.mainmirror();
+        ProSmartMirror proSmartMirror=new ProSmartMirror();
+        proSmartMirror.showmirror(smartMirror);
+        proSmartMirror.showmirror(smartMirror1);
         System.out.println("===============================================================");
         Dishwasher dishwasher=new Dishwasher();
         dishwasher.usedishwasher();
@@ -302,6 +416,9 @@ public class Runner {
         MaxDishwasher maxDishwasher=new MaxDishwasher();
         maxDishwasher.usedishwasher();
         maxDishwasher.maindishwasher();
+        ProDishwasher proDishwasher=new ProDishwasher();
+        proDishwasher.showdish(dishwasher);
+        proDishwasher.showdish(dishwasher1);
         System.out.println("===============================================================");
         SteamMop steamMop=new SteamMop();
         steamMop.usemop();
@@ -309,6 +426,9 @@ public class Runner {
         SmartSteamMop smartSteamMop=new SmartSteamMop();
         smartSteamMop.usemop();
         smartSteamMop.mainmop();
+        ProSteamMop proSteamMop=new ProSteamMop();
+        proSteamMop.showmop(steamMop);
+        proSteamMop.showmop(steamMop1);
         System.out.println("===============================================================");
         BluetoothTracker bluetoothTracker=new BluetoothTracker();
         bluetoothTracker.useblue();
@@ -317,6 +437,9 @@ public class Runner {
         ProBluetoothTracker proBluetoothTracker=new ProBluetoothTracker();
         proBluetoothTracker.useblue();
         proBluetoothTracker.mainblue();
+        SmartBluetoothTracker smartBluetoothTracker=new SmartBluetoothTracker();
+        smartBluetoothTracker.showblue(bluetoothTracker);
+        smartBluetoothTracker.showblue(bluetoothTracker1);
         System.out.println("===============================================================");
         ElectricScooter electricScooter=new ElectricScooter();
         electricScooter.usescooter();
@@ -325,6 +448,9 @@ public class Runner {
         MaxElectricScooter maxElectricScooter=new MaxElectricScooter();
         maxElectricScooter.usescooter();
         maxElectricScooter.mainscooter();
+        ProElectricScooter proElectricScooter=new ProElectricScooter();
+        proElectricScooter.showele(electricScooter);
+        proElectricScooter.showele(electricScooter1);
         System.out.println("===============================================================");
         PowerBank powerBank=new PowerBank();
         powerBank.usepowerbank();
@@ -333,6 +459,9 @@ public class Runner {
         UltraPowerBank ultraPowerBank=new UltraPowerBank();
         ultraPowerBank.usepowerbank();
         ultraPowerBank.mainusepowerbank();
+        ProPowerBank proPowerBank=new ProPowerBank();
+        proPowerBank.showbank(powerBank);
+        proPowerBank.showbank(powerBank1);
         System.out.println("===============================================================");
         GraphicsTablet graphicsTablet=new GraphicsTablet();
         graphicsTablet.usetablet();
@@ -341,6 +470,9 @@ public class Runner {
         ProGraphicsTablet proGraphicsTablet=new ProGraphicsTablet();
         proGraphicsTablet.usetablet();
         proGraphicsTablet.maintablet();
+        SmartGraphicsTablet smartGraphicsTablet=new SmartGraphicsTablet();
+        smartGraphicsTablet.showgraphic(graphicsTablet);
+        smartGraphicsTablet.showgraphic(graphicsTablet1);
         System.out.println("===============================================================");
         PortableAC portableAC=new PortableAC();
         portableAC.useportable();
@@ -349,6 +481,9 @@ public class Runner {
         SmartPortableAC smartPortableAC=new SmartPortableAC();
         smartPortableAC.useportable();
         smartPortableAC.mainportable();
+        ProPortableAC proPortableAC=new ProPortableAC();
+        proPortableAC.showport(portableAC);
+        proPortableAC.showport(portableAC1);
         System.out.println("===============================================================");
         Dehumidifier dehumidifier=new Dehumidifier();
         dehumidifier.usemidifier();
@@ -357,6 +492,9 @@ public class Runner {
         EliteDehumidifier eliteDehumidifier=new EliteDehumidifier();
         eliteDehumidifier.usemidifier();
         eliteDehumidifier.maindiffer();
+        ProDehumidifier proDehumidifier=new ProDehumidifier();
+        proDehumidifier.showdehu(dehumidifier);
+        proDehumidifier.showdehu(dehumidifier1);
         System.out.println("===============================================================");
         AirPurifier airPurifier=new AirPurifier();
         airPurifier.useair();
@@ -365,6 +503,9 @@ public class Runner {
         UltraAirPurifier ultraAirPurifier=new UltraAirPurifier();
         ultraAirPurifier.useair();
         ultraAirPurifier.mainair();
+        ProAirPurifier proAirPurifier=new ProAirPurifier();
+        proAirPurifier.showair(airPurifier);
+        proAirPurifier.showair(airPurifier1);
         System.out.println("===============================================================");
         WaterPurifier waterPurifier=new WaterPurifier();
         waterPurifier.usepurifier();
@@ -373,6 +514,9 @@ public class Runner {
         MaxWaterPurifier maxWaterPurifier=new MaxWaterPurifier();
         maxWaterPurifier.usepurifier();
         maxWaterPurifier.mainpurifier();
+        ProWaterPurifier proWaterPurifier=new ProWaterPurifier();
+        proWaterPurifier.showwater(waterPurifier);
+        proWaterPurifier.showwater(waterPurifier1);
         System.out.println("===============================================================");
         SmartLock smartLock=new SmartLock();
         smartLock.uselock();
@@ -381,6 +525,9 @@ public class Runner {
         SmartSmartLock smartSmartLock=new SmartSmartLock();
         smartSmartLock.mainlock();
         smartSmartLock.uselock();
+        ProSmartLock proSmartLock=new ProSmartLock();
+        proSmartLock.showlock(smartLock);
+        proSmartLock.showlock(smartLock1);
         System.out.println("===============================================================");
         SmartGlasses smartGlasses=new SmartGlasses();
         smartGlasses.useglasses();
@@ -389,6 +536,9 @@ public class Runner {
         ProSmartGlasses proSmartGlasses=new ProSmartGlasses();
         proSmartGlasses.useglasses();
         proSmartGlasses.mainglasses();
+        SmartSmartGlasses smartSmartGlasses=new SmartSmartGlasses();
+        smartSmartGlasses.showglass(smartGlasses);
+        smartSmartGlasses.showglass(smartGlasses1);
         System.out.println("===============================================================");
         HomeTheater homeTheater=new HomeTheater();
         homeTheater.usetheater();
@@ -397,6 +547,9 @@ public class Runner {
         EliteHomeTheater eliteHomeTheater=new EliteHomeTheater();
         eliteHomeTheater.usetheater();
         eliteHomeTheater.maintheater();
+        ProHomeTheater proHomeTheater=new ProHomeTheater();
+        proHomeTheater.showhome(homeTheater);
+        proHomeTheater.showhome(homeTheater1);
         System.out.println("===============================================================");
         BarcodeScanner barcodeScanner=new BarcodeScanner();
         barcodeScanner.usebar();
@@ -405,6 +558,9 @@ public class Runner {
         MaxBarcodeScanner maxBarcodeScanner=new MaxBarcodeScanner();
         maxBarcodeScanner.usebar();
         maxBarcodeScanner.mainbar();
+        ProBarcodeScanner proBarcodeScanner=new ProBarcodeScanner();
+        proBarcodeScanner.showbar(barcodeScanner);
+        proBarcodeScanner.showbar(barcodeScanner1);
         System.out.println("===============================================================");
         POSMachine posMachine=new POSMachine();
         posMachine.usemachine();
@@ -413,6 +569,9 @@ public class Runner {
         SmartPOSMachine smartPOSMachine=new SmartPOSMachine();
         smartPOSMachine.mainmachine();
         smartPOSMachine.usemachine();
+        ProPOSMachine posMachine2=new ProPOSMachine();
+        posMachine2.showmachine(posMachine);
+        posMachine2.showmachine(posMachine1);
         System.out.println("===============================================================");
         SmartThermostat smartThermostat=new SmartThermostat();
         smartThermostat.usesmart();
@@ -421,6 +580,9 @@ public class Runner {
         ProSmartThermostat proSmartThermostat=new ProSmartThermostat();
         proSmartThermostat.usesmart();
         proSmartThermostat.mainsmart();
+        UltraSmartThermostat ultraSmartThermostat=new UltraSmartThermostat();
+        ultraSmartThermostat.showthermo(smartThermostat);
+        ultraSmartThermostat.showthermo(smartThermostat1);
         System.out.println("===============================================================");
         DashCam dashCam=new DashCam();
         dashCam.usedash();
@@ -429,6 +591,9 @@ public class Runner {
         UltraDashCam dashCam2=new UltraDashCam();
         dashCam2.usedash();
         dashCam2.maindash();
+        ProDashCam proDashCam=new ProDashCam();
+        proDashCam.showdash(dashCam);
+        proDashCam.showdash(dashCam1);
         System.out.println("===============================================================");
         Soundbar soundbar=new Soundbar();
         soundbar.usesounde();
@@ -437,6 +602,9 @@ public class Runner {
         MaxSoundbar soundbar2=new MaxSoundbar();
         soundbar2.usesounde();
         soundbar2.mainsounder();
+        ProSoundbar proSoundbar=new ProSoundbar();
+        proSoundbar.showsound(soundbar);
+        proSoundbar.showsound(soundbar1);
         System.out.println("===============================================================");
         WalkieTalkie walkieTalkie=new WalkieTalkie();
         walkieTalkie.usewalk();
@@ -445,6 +613,9 @@ public class Runner {
         EliteWalkieTalkie eliteWalkieTalkie=new EliteWalkieTalkie();
         eliteWalkieTalkie.mainwalk();
         eliteWalkieTalkie.usewalk();
+        ProWalkieTalkie proWalkieTalkie=new ProWalkieTalkie();
+        proWalkieTalkie.showalkie(walkieTalkie);
+        proWalkieTalkie.showalkie(walkieTalkie1);
         System.out.println("===============================================================");
         Intercom intercom=new Intercom();
         intercom.useinter();
@@ -453,6 +624,9 @@ public class Runner {
         ProIntercom proIntercom=new ProIntercom();
         proIntercom.useinter();
         proIntercom.maininter();
+        UltraIntercom ultraIntercom=new UltraIntercom();
+        ultraIntercom.showinter(intercom);
+        ultraIntercom.showinter(intercom1);
         System.out.println("===============================================================");
         RiceCooker riceCooker=new RiceCooker();
         riceCooker.userice();
@@ -461,6 +635,9 @@ public class Runner {
         SmartRiceCooker smartRiceCooker=new SmartRiceCooker();
         smartRiceCooker.userice();
         smartRiceCooker.mainrice();
+        ProRiceCooker proRiceCooker=new ProRiceCooker();
+        proRiceCooker.showrice(riceCooker);
+        proRiceCooker.showrice(riceCooker1);
         System.out.println("===============================================================");
         SlowCooker slowCooker=new SlowCooker();
         slowCooker.usecook();
@@ -469,6 +646,9 @@ public class Runner {
         UltraSlowCooker ultraSlowCooker=new UltraSlowCooker();
         ultraSlowCooker.maincook();
         ultraSlowCooker.usecook();
+        ProSlowCooker proSlowCooker=new ProSlowCooker();
+        proSlowCooker.showslow(slowCooker);
+        proSlowCooker.showslow(slowCooker1);
         System.out.println("===============================================================");
         Juicer juicer=new Juicer();
         juicer.usejuice();
@@ -477,6 +657,9 @@ public class Runner {
         ProJuicer proJuicer=new ProJuicer();
         proJuicer.mainjuice();
         proJuicer.usejuice();
+        UltraJuicer ultraJuicer=new UltraJuicer();
+        ultraJuicer.showjuice(juicer);
+        ultraJuicer.showjuice(juicer1);
         System.out.println("===============================================================");
         AirFryer airFryer=new AirFryer();
         airFryer.useair();
@@ -485,6 +668,9 @@ public class Runner {
         EliteAirFryer eliteAirFryer=new EliteAirFryer();
         eliteAirFryer.mainair();
         eliteAirFryer.useair();
+        ProAirFryer proAirFryer=new ProAirFryer();
+        proAirFryer.showair(airFryer);
+        proAirFryer.showair(airFryer1);
         System.out.println("===============================================================");
         SandwichMaker sandwichMaker=new SandwichMaker();
         sandwichMaker.usesand();
@@ -493,6 +679,9 @@ public class Runner {
         MaxSandwichMaker sandwichMaker2=new MaxSandwichMaker();
         sandwichMaker2.mainand();
         sandwichMaker2.usesand();
+        ProSandwichMaker proSandwichMaker=new ProSandwichMaker();
+        proSandwichMaker.showsand(sandwichMaker);
+        proSandwichMaker.showsand(sandwichMaker2);
         System.out.println("===============================================================");
         WaterHeater waterHeater=new WaterHeater();
         waterHeater.water();
@@ -501,6 +690,9 @@ public class Runner {
         UltraWaterHeater waterHeater2=new UltraWaterHeater();
         waterHeater2.mainwater();
         waterHeater2.water();
+        ProWaterHeater proWaterHeater=new ProWaterHeater();
+        proWaterHeater.showwater(waterHeater);
+        proWaterHeater.showwater(waterHeater1);
         System.out.println("===============================================================");
         Treadmill treadmill=new Treadmill();
         treadmill.usetread();
@@ -509,6 +701,9 @@ public class Runner {
         SmartTreadmill smartTreadmill=new SmartTreadmill();
         smartTreadmill.maintread();
         smartTreadmill.usetread();
+        ProTreadmill proTreadmill=new ProTreadmill();
+        proTreadmill.showtread(treadmill);
+        proTreadmill.showtread(treadmill1);
         System.out.println("===============================================================");
         EllipticalTrainer ellipticalTrainer=new EllipticalTrainer();
         ellipticalTrainer.useelli();
@@ -517,6 +712,9 @@ public class Runner {
         ProEllipticalTrainer proEllipticalTrainer=new ProEllipticalTrainer();
         proEllipticalTrainer.useelli();
         proEllipticalTrainer.mainelli();
+        UltraEllipticalTrainer ultraEllipticalTrainer=new UltraEllipticalTrainer();
+        ultraEllipticalTrainer.showtrain(ellipticalTrainer);
+        ultraEllipticalTrainer.showtrain(ellipticalTrainer1);
         System.out.println("===============================================================");
         MassageChair massageChair=new MassageChair();
         massageChair.usemass();
@@ -525,6 +723,9 @@ public class Runner {
         EliteMassageChair eliteMassageChair=new EliteMassageChair();
         eliteMassageChair.usemass();
         eliteMassageChair.mainmass();
+        ProMassageChair proMassageChair=new ProMassageChair();
+        proMassageChair.showmessage(massageChair);
+        proMassageChair.showmessage(massageChair1);
         System.out.println("===============================================================");
         SmartScale smartScale=new SmartScale();
         smartScale.usesmart();
@@ -533,6 +734,9 @@ public class Runner {
         UltraSmartScale ultraSmartScale=new UltraSmartScale();
         ultraSmartScale.mainsmart();
         ultraSmartScale.usesmart();
+        ProSmartScale proSmartScale=new ProSmartScale();
+        proSmartScale.showsmart(smartScale);
+        proSmartScale.showsmart(smartScale1);
         System.out.println("===============================================================");
         AirHumidifier airHumidifier=new AirHumidifier();
         airHumidifier.useair();
@@ -541,6 +745,9 @@ public class Runner {
         MaxAirHumidifier maxAirHumidifier=new MaxAirHumidifier();
         maxAirHumidifier.mainair();
         maxAirHumidifier.useair();
+        ProAirHumidifier proAirHumidifier=new ProAirHumidifier();
+        proAirHumidifier.showair(airHumidifier);
+        proAirHumidifier.showair(airHumidifier1);
         System.out.println("===============================================================");
         DigitalClock digitalClock=new DigitalClock();
         digitalClock.usedigital();
@@ -549,6 +756,9 @@ public class Runner {
         SmartDigitalClock smartDigitalClock=new SmartDigitalClock();
         smartDigitalClock.usedigital();
         smartDigitalClock.maindigita();
+        ProDigitalClock proDigitalClock=new ProDigitalClock();
+        proDigitalClock.showdigital(digitalClock);
+        proDigitalClock.showdigital(digitalClock1);
         System.out.println("===============================================================");
         WeatherStation weatherStation=new WeatherStation();
         weatherStation.useweather();
@@ -557,6 +767,9 @@ public class Runner {
         ProWeatherStation proWeatherStation=new ProWeatherStation();
         proWeatherStation.mainweather();
         proWeatherStation.useweather();
+        UltraWeatherStation ultraWeatherStation=new UltraWeatherStation();
+        ultraWeatherStation.showstation(weatherStation);
+        ultraWeatherStation.showstation(weatherStation1);
         System.out.println("===============================================================");
         SmartCurtain smartCurtain=new SmartCurtain();
         smartCurtain.usesmart();
@@ -565,6 +778,9 @@ public class Runner {
         EliteSmartCurtain eliteSmartCurtain=new EliteSmartCurtain();
         eliteSmartCurtain.usesmart();
         eliteSmartCurtain.mainsmart();
+        ProSmartCurtain proSmartCurtain=new ProSmartCurtain();
+        proSmartCurtain.showsmart(smartCurtain);
+        proSmartCurtain.showsmart(smartCurtain1);
         System.out.println("===============================================================");
         ElectricBlanket electricBlanket=new ElectricBlanket();
         electricBlanket.useele();
@@ -573,6 +789,9 @@ public class Runner {
         UltraElectricBlanket ultraElectricBlanket=new UltraElectricBlanket();
         ultraElectricBlanket.useele();
         ultraElectricBlanket.mainele();
+        ProElectricBlanket proElectricBlanket=new ProElectricBlanket();
+        proElectricBlanket.showblank(electricBlanket);
+        proElectricBlanket.showblank(electricBlanket1);
         System.out.println("===============================================================");
         SmartSocket smartSocket=new SmartSocket();
         smartSocket.usesmart();
@@ -581,6 +800,9 @@ public class Runner {
         MaxSmartSocket maxSmartSocket=new MaxSmartSocket();
         maxSmartSocket.mainsmart();
         maxSmartSocket.usesmart();
+        ProSmartSocket proSmartSocket=new ProSmartSocket();
+        proSmartSocket.showsock(smartSocket);
+        proSmartSocket.showsock(smartSocket1);
         System.out.println("===============================================================");
         SmartRemote smartRemote=new SmartRemote();
         smartRemote.usesmart();
@@ -589,6 +811,9 @@ public class Runner {
         SmartSmartRemote smartSmartRemote=new SmartSmartRemote();
         smartSmartRemote.mainsmart();
         smartSmartRemote.usesmart();
+        ProSmartRemote proSmartRemote=new ProSmartRemote();
+        proSmartRemote.showremote(smartRemote);
+        proSmartRemote.showremote(smartRemote1);
         System.out.println("===============================================================");
         SmartSprinkler smartSprinkler=new SmartSprinkler();
         smartSprinkler.usesmart();
@@ -597,6 +822,9 @@ public class Runner {
         ProSmartSprinkler proSmartSprinkler=new ProSmartSprinkler();
         proSmartSprinkler.mainsmart();
         proSmartSprinkler.usesmart();
+        UltraSmartSprinkler ultraSmartSprinkler=new UltraSmartSprinkler();
+        ultraSmartSprinkler.showsprink(smartSprinkler);
+        ultraSmartSprinkler.showsprink(smartSprinkler1);
         System.out.println("===============================================================");
         BabyMonitor babyMonitor=new BabyMonitor();
         babyMonitor.usebaby();
@@ -605,6 +833,9 @@ public class Runner {
         EliteBabyMonitor eliteBabyMonitor=new EliteBabyMonitor();
         eliteBabyMonitor.mainbaby();
         eliteBabyMonitor.usebaby();
+        ProBabyMonitor proBabyMonitor=new ProBabyMonitor();
+        proBabyMonitor.showmoni(babyMonitor);
+        proBabyMonitor.showmoni(babyMonitor1);
         System.out.println("===============================================================");
         GarageDoorOpener garageDoorOpener=new GarageDoorOpener();
         garageDoorOpener.usegarage();
@@ -613,6 +844,9 @@ public class Runner {
         UltraGarageDoorOpener ultraGarageDoorOpener=new UltraGarageDoorOpener();
         ultraGarageDoorOpener.maingarage();
         ultraGarageDoorOpener.usegarage();
+        ProGarageDoorOpener proGarageDoorOpener=new ProGarageDoorOpener();
+        proGarageDoorOpener.showdoor(garageDoorOpener);
+        proGarageDoorOpener.showdoor(garageDoorOpener1);
         System.out.println("===============================================================");
         SmartFaucet smartFaucet=new SmartFaucet();
         smartFaucet.usesmart();
@@ -621,6 +855,9 @@ public class Runner {
         MaxSmartFaucet maxSmartFaucet=new MaxSmartFaucet();
         maxSmartFaucet.mainsmart();
         maxSmartFaucet.usesmart();
+        ProSmartFaucet proSmartFaucet=new ProSmartFaucet();
+        proSmartFaucet.showfaucet(smartFaucet);
+        proSmartFaucet.showfaucet(smartFaucet1);
         System.out.println("===============================================================");
         SmartMat smartMat=new SmartMat();
         smartMat.usesmart();
@@ -629,6 +866,9 @@ public class Runner {
         SmartSmartMat smartSmartMat=new SmartSmartMat();
         smartSmartMat.mainsmart();
         smartSmartMat.usesmart();
+        ProSmartCurtain proSmartCurtain1=new ProSmartCurtain();
+        proSmartCurtain1.showsmart(smartCurtain);
+        proSmartCurtain1.showsmart(smartCurtain1);
         System.out.println("===============================================================");
         SmartHelmet smartHelmet=new SmartHelmet();
         smartHelmet.usesmart();
@@ -637,6 +877,9 @@ public class Runner {
         ProSmartHelmet proSmartHelmet=new ProSmartHelmet();
         proSmartHelmet.mainsmart();
         proSmartHelmet.usesmart();
+        UltraSmartHelmet ultraSmartHelmet=new UltraSmartHelmet();
+        ultraSmartHelmet.showhel(smartHelmet);
+        ultraSmartHelmet.showhel(smartHelmet1);
         System.out.println("===============================================================");
         VRHeadset vrHeadset=new VRHeadset();
         vrHeadset.usehead();
@@ -645,6 +888,9 @@ public class Runner {
         EliteVRHeadset eliteVRHeadset=new EliteVRHeadset();
         eliteVRHeadset.mainhead();
         eliteVRHeadset.usehead();
+        ProVRHeadset proVRHeadset=new ProVRHeadset();
+        proVRHeadset.showvr(vrHeadset);
+        proVRHeadset.showvr(vrHeadset1);
         System.out.println("===============================================================");
         DronePro dronePro=new DronePro();
         dronePro.usedrone();
@@ -661,6 +907,9 @@ public class Runner {
         MaxActionCamera maxActionCamera=new MaxActionCamera();
         maxActionCamera.useaction();
         maxActionCamera.mainaction();
+        ProActionCamera proActionCamera=new ProActionCamera();
+        proActionCamera.showcam(actionCamera);
+        proActionCamera.showcam(actionCamera1);
         System.out.println("===============================================================");
         ElectricGrill electricGrill=new ElectricGrill();
         electricGrill.useele();
@@ -669,6 +918,9 @@ public class Runner {
         SmartElectricGrill smartElectricGrill=new SmartElectricGrill();
         smartElectricGrill.useele();
         smartElectricGrill.mainele();
+        ProElectricGrill proElectricGrill=new ProElectricGrill();
+        proElectricGrill.showgrill(electricGrill);
+        proElectricGrill.showgrill(electricGrill1);
         System.out.println("===============================================================");
         ProjectorPro projectorPro=new ProjectorPro();
         projectorPro.usepro();
@@ -677,6 +929,9 @@ public class Runner {
         ProProjectorPro proProjectorPro=new ProProjectorPro();
         proProjectorPro.usepro();
         proProjectorPro.mainpro();
+        SmartProjectorPro smartProjectorPro=new SmartProjectorPro();
+        smartProjectorPro.shoepro(projectorPro);
+        smartProjectorPro.shoepro(projectorPro1);
         System.out.println("===============================================================");
         DigitalMicroscope digitalMicroscope=new DigitalMicroscope();
         digitalMicroscope.usedigital();
@@ -685,6 +940,9 @@ public class Runner {
         EliteDigitalMicroscope eliteDigitalMicroscope=new EliteDigitalMicroscope();
         eliteDigitalMicroscope.usedigital();
         eliteDigitalMicroscope.maindigital();
+        ProDigitalMicroscope proDigitalMicroscope=new ProDigitalMicroscope();
+        proDigitalMicroscope.showmicro(digitalMicroscope);
+        proDigitalMicroscope.showmicro(digitalMicroscope1);
         System.out.println("===============================================================");
         SmartNotebook smartNotebook=new SmartNotebook();
         smartNotebook.usesmart();
@@ -693,6 +951,9 @@ public class Runner {
         UltraSmartNotebook ultraSmartNotebook=new UltraSmartNotebook();
         ultraSmartNotebook.usesmart();
         ultraSmartNotebook.mainsmart();
+        ProSmartNotebook proSmartNotebook=new ProSmartNotebook();
+        proSmartNotebook.shownote(smartNotebook);
+        proSmartNotebook.shownote(smartNotebook1);
         System.out.println("===============================================================");
         BloodPressureMonitor bloodPressureMonitor=new BloodPressureMonitor();
         bloodPressureMonitor.useblood();
@@ -701,6 +962,9 @@ public class Runner {
         SmartBloodPressureMonitor smartBloodPressureMonitor=new SmartBloodPressureMonitor();
         smartBloodPressureMonitor.useblood();
         smartBloodPressureMonitor.mainblood();
+        ProBloodPressureMonitor proBloodPressureMonitor=new ProBloodPressureMonitor();
+        proBloodPressureMonitor.showblood(bloodPressureMonitor);
+        proBloodPressureMonitor.showblood(bloodPressureMonitor1);
         System.out.println("===============================================================");
         ECGMonitor ecgMonitor=new ECGMonitor();
         ecgMonitor.useecg();
@@ -709,6 +973,9 @@ public class Runner {
         ProECGMonitor proECGMonitor=new ProECGMonitor();
         proECGMonitor.useecg();
         proECGMonitor.mainecg();
+        SmartECGMonitor smartECGMonitor=new SmartECGMonitor();
+        smartECGMonitor.showmoni(ecgMonitor);
+        smartECGMonitor.showmoni(ecgMonitor1);
         System.out.println("===============================================================");
         GlucoseMonitor glucoseMonitor=new GlucoseMonitor();
         glucoseMonitor.useglu();
@@ -717,6 +984,9 @@ public class Runner {
         EliteGlucoseMonitor eliteGlucoseMonitor=new EliteGlucoseMonitor();
         eliteGlucoseMonitor.mainglu();
         eliteGlucoseMonitor.useglu();
+        SmartGlucoseMonitor smartGlucoseMonitor=new SmartGlucoseMonitor();
+        smartGlucoseMonitor.showglucose(glucoseMonitor);
+        smartGlucoseMonitor.showglucose(glucoseMonitor1);
         System.out.println("===============================================================");
         SmartShoe smartShoe=new SmartShoe();
         smartShoe.usesmart();
@@ -725,6 +995,9 @@ public class Runner {
         UltraSmartShoe ultraSmartShoe=new UltraSmartShoe();
         ultraSmartShoe.mainsmart();
         ultraSmartShoe.usesmart();
+        ProSmartShoe proSmartShoe=new ProSmartShoe();
+        proSmartShoe.showsmart(smartShoe);
+        proSmartShoe.showsmart(smartShoe1);
         System.out.println("===============================================================");
         SmartTrashCan smartTrashCan=new SmartTrashCan();
         smartTrashCan.usesmart();
@@ -733,6 +1006,9 @@ public class Runner {
         SmartSmartTrashCan smartSmartTrashCan=new SmartSmartTrashCan();
         smartSmartTrashCan.mainsmart();
         smartSmartTrashCan.usesmart();
+        ProSmartTrashCan proSmartTrashCan=new ProSmartTrashCan();
+        proSmartTrashCan.showsmart(smartTrashCan);
+        proSmartTrashCan.showsmart(smartTrashCan1);
         System.out.println("===============================================================");
         SmartPen smartPen=new SmartPen();
         smartPen.usepen();
@@ -741,6 +1017,9 @@ public class Runner {
         EliteSmartPen eliteSmartPen=new EliteSmartPen();
         eliteSmartPen.usepen();
         eliteSmartPen.mainpen();
+        ProSmartPen proSmartPen=new ProSmartPen();
+        proSmartPen.showsmart(smartPen);
+        proSmartPen.showsmart(smartPen1);
         System.out.println("===============================================================");
         WindowCleaner windowCleaner=new WindowCleaner();
         windowCleaner.usewindow();
@@ -749,6 +1028,9 @@ public class Runner {
         MaxWindowCleaner maxWindowCleaner=new MaxWindowCleaner();
         maxWindowCleaner.usewindow();
         maxWindowCleaner.mainwindow();
+        ProWindowCleaner proWindowCleaner=new ProWindowCleaner();
+        proWindowCleaner.showwind(windowCleaner);
+        proWindowCleaner.showwind(windowCleaner1);
         System.out.println("===============================================================");
         SmartTowel smartTowel=new SmartTowel();
         smartTowel.usetowel();
@@ -757,5 +1039,8 @@ public class Runner {
         SmartSmartTowel smartSmartTowel=new SmartSmartTowel();
         smartSmartTowel.usetowel();
         smartSmartTowel.maintowel();
+        ProSmartTowel proSmartTowel=new ProSmartTowel();
+        proSmartTowel.showsmart(smartTowel);
+        proSmartTowel.showsmart(smartTowel1);
     }
 }
