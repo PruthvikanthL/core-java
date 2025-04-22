@@ -12,5 +12,13 @@ public class Runner {
         thermostat.Refshow();
         Laptops l1 = new Laptops("HP", 8);
         l1.keyboard();
+        ElectricCar electricCar=new Speed("Olo");
+        electricCar.batterybackup();
+        electricCar.rechargetime();
+        electricCar.electdisp();
+        electricCar.electshow();
+        Speed speed=new VehicleCost("Xiomi",120);
+        speed.acce();
+
     }
 }
