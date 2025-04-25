@@ -1,0 +1,3 @@
+enum CousesList{
+	AIML,SQL,COREJAVA,ADVJAVA,REACT;
+}

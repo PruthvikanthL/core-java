@@ -1,0 +1,54 @@
+class CollegeRunner {
+    public static void main(String[] args) {
+        String name = "Pruthvi";
+        College.CollegeInfo(name);
+        name = "Adarsh";
+        College.CollegeInfo(name);
+        name = "Amurth";
+        College.CollegeInfo(name);
+        name = "Shikar";
+        College.CollegeInfo(name);
+        name = "Chiru";
+        College.CollegeInfo(name);
+        name = "Rangu";
+        College.CollegeInfo(name);
+        name = "Sudeep";
+        College.CollegeInfo(name);
+        name = "Patil";
+        College.CollegeInfo(name);
+        name = "Nagesh";
+        College.CollegeInfo(name);
+        name = "Kanth";
+        College.CollegeInfo(name);
+        name = "Praju";
+        College.CollegeInfo(name);
+        name = "Surya";
+        College.CollegeInfo(name);
+        name = "Darshan";
+        College.CollegeInfo(name);
+        name = "Shivu";
+        College.CollegeInfo(name);
+        name = "Prasad";
+        College.CollegeInfo(name);
+        name = "Vikas";
+        College.CollegeInfo(name);
+        name = "Ravi";
+        College.CollegeInfo(name);
+        name = "Manoj";
+        College.CollegeInfo(name);
+        name = "Harsha";
+        College.CollegeInfo(name);
+        name = "Shashank";
+        College.CollegeInfo(name);
+        name = "Yash";
+        College.CollegeInfo(name);
+        name = "Gagan";
+        College.CollegeInfo(name);
+        name = "Karthik";
+        College.CollegeInfo(name);
+        name = "Varun";
+        College.CollegeInfo(name);
+        name = "Ajay";
+        College.CollegeInfo(name);
+    }
+}
