@@ -1,0 +1,52 @@
+class EmailRunner{
+	public static void main(String[] args){
+		String name="Pruthvi";
+		String Gmail=Email.getEmailByName(name);
+		System.out.println("The Gmail ID for the Person\t"+name+"is\t"+Gmail);
+		String name1="Appu";
+		String Gmail1=Email.getEmailByName(name1);
+		System.out.println("The Gmail ID for the Person\t"+name1+"is\t"+Gmail1);
+		String name2="Adarsh";
+		String Gmail2=Email.getEmailByName(name2);
+		System.out.println("The Gmail ID for the Person\t"+name2+"is\t"+Gmail2);
+		String name3="Shikar";
+		String Gmail3=Email.getEmailByName(name3);
+		System.out.println("The Gmail ID for the Person\t"+name3+"is\t"+Gmail3);
+		String name4="Kanth";
+		String Gmail4=Email.getEmailByName(name4);
+		System.out.println("The Gmail ID for the Person\t"+name4+"is\t"+Gmail4);
+		String name5="Surya";
+		String Gmail5=Email.getEmailByName(name5);
+		System.out.println("The Gmail ID for the Person\t"+name5+"is\t"+Gmail5);
+		String name6="Nagesh";
+		String Gmail6=Email.getEmailByName(name6);
+		System.out.println("The Gmail ID for the Person\t"+name6+"is\t"+Gmail6);
+		String name7="Santhu";
+		String Gmail7=Email.getEmailByName(name7);
+		System.out.println("The Gmail ID for the Person\t"+name7+"is\t"+Gmail7);
+		String name8="Sunil";
+		String Gmail8=Email.getEmailByName(name8);
+		System.out.println("The Gmail ID for the Person\t"+name8+"is\t"+Gmail8);
+		String name9="Nagu";
+		String Gmail9=Email.getEmailByName(name9);
+		System.out.println("The Gmail ID for the Person\t"+name9+"is\t"+Gmail9);
+		String name10="Chiru";
+		String Gmail10=Email.getEmailByName(name10);
+		System.out.println("The Gmail ID for the Person\t"+name10+"is\t"+Gmail10);
+		String name11="Vikram";
+		String Gmail11=Email.getEmailByName(name11);
+		System.out.println("The Gmail ID for the Person\t"+name11+"is\t"+Gmail11);
+		String name12="Rathod";
+		String Gmail12=Email.getEmailByName(name12);
+		System.out.println("The Gmail ID for the Person\t"+name12+"is\t"+Gmail12);
+		String name13="Shankar";
+		String Gmail13=Email.getEmailByName(name13);
+		System.out.println("The Gmail ID for the Person\t"+name13+"is\t"+Gmail13);
+		String name14="Nikhil";
+		String Gmail14=Email.getEmailByName(name13);
+		System.out.println("The Gmail ID for the Person\t"+name14+"is\t"+Gmail14);
+		String name15="Raju";
+		String Gmail15=Email.getEmailByName(name15);
+		System.out.println("The Gmail ID for the Person\t"+name15+"is\t"+Gmail15);
+	}
+}
