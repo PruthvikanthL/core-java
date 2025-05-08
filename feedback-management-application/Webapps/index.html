@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: 50px auto;
+            border: 3px solid #007BFF;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            padding: 30px;
+        }
+
+        .form-content {
+            border: 2px dashed #17a2b8;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        center {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<form action="feedback" method="post">
+    <div class="form-container">
+        <center><h1>Feedback Form</h1></center>
+        <div class="form-content">
+            <center>
+                <input type="text" placeholder="Enter your name" name="name"><br>
+                <input type="email" placeholder="Enter your email" name="email"><br>
+                <input type="tel" placeholder="Enter your number" name="contact"><br>
+                <input type="text" placeholder="Enter your honest feedback" name="feedback"><br>
+                <input type="submit" value="Submit Feedback">
+            </center>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
