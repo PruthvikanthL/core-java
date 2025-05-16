@@ -1,0 +1,3 @@
+enum Movies{
+	GOODACHARI,EVARU,MAJOR,HIT,HIT3;
+}
